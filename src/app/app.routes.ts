@@ -31,7 +31,7 @@ export const routes: Routes = [
         {path:'home-four',component:HomeFourComponent,title:"Home Four - Mykd"},
         {path:'home-five',component:HomeFiveComponent,title:"Home Five - Mykd"},
     ]},
-    {path:'tournament',component:TournamentComponent,title:"TournamentSkibidi - Mykd"},
+    
     {path:'tournament-details',component:TournamentDetailsComponent,title:"Tournament SingleSkibidi - Mykd"},
     {path:'services',component:ServicesComponent,title:"Services - Mykd"},
     {path:'service-details',component:ServiceDetailsComponent,title:"Services Single - Mykd"},
