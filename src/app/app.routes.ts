@@ -22,15 +22,3 @@ import { ShopDetailsComponent } from './pages/shop-details/shop-details.componen
 import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 
-export const routes: Routes = [
-    {path:"",redirectTo:"/home/home-one",pathMatch:"full"},
-    {path:'home',children:[
-        {path:'home-one',component:HomeOneComponent,title:"ADB Games - Mykd"},
-
-   
-
-    {path:'blog',component:BlogComponent,title:"Blog - Mykd"},
-    {path:'blog-details/:id',component:BlogDetailsComponent,title:'Blog Details - Mykd'},
-    {path:'contact',component:ContactComponent,title:"Contact - Mykd"},
-    {path:'**',component:NotFoundComponent,title:"404 - Mykd"},
-];
